@@ -1,0 +1,24 @@
+Package: PIC
+Version: 1.0
+Date: 2017-01-09
+Title: Permafrost Index Computing
+Authors@R: c(person("Lihui Luo", "Developer", role = c("aut", "cre"),
+                     email = "luolh@lzb.ac.cn"))
+Author: Lihui Luo Developer [aut, cre]
+Maintainer: Lihui Luo Developer <luolh@lzb.ac.cn>
+Depends: R (>= 3.1.0)
+Suggests: MASS
+Description: Calculation of various types indices in frozen soil environment, including:
+  TTOP - The temperature at the top of the permafrost or at the bottom of the seasonally frozen layer.
+  uts - Period of the thawing season for the ground surface (days)
+  uta - Period of the thawing season for the air (days)
+  ufs - Period of the freezing season for the ground surface (days)
+  ufa - Period of the freezing season for the air (days)
+  DDTa - Thawing degree-days of air (Celsius degree-days)
+  DDTs - Thawing degree-days of ground surface (Celsius degree-days)
+  DDFs - Freezing degree-days of ground surface (Celsius degree-days)
+  DDFa - Freezing degree-days of air (Celsius degree-days)
+  MAGT - Mean annual ground temperature
+  MAAT - Mean annual air temperature
+License: GPL (>= 2)
+URL: https://github.com/iffylaw
