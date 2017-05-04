@@ -85,8 +85,8 @@ Map_Pic <- function(VarName){
     
     ggmap(get_googlemap(center=c(lon = 90, lat = 35),zoom=5, maptype='terrain')) +
       geom_point(data=as.data.frame(d[i,]),
-                 aes(x=Station_Info$Lon, y=Station_Info$Lat), size=d[i,], col="red") +
-      scale_size_identity() +
+                 aes(x=Station_Info$Lon, y=Station_Info$Lat), size=d[i,], col="red", show.legend = TRUE) +
+      #scale_size_identity() +
       ggtitle(paste(title, " (", (MinYear:MaxYear)[i], ")", sep=""))
   }
   
