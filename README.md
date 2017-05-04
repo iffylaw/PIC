@@ -304,7 +304,7 @@ Spatial_Stat("PIC_indices.nc","FD")
 ```
 
 ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/Animation/ALT_Animation.gif)
-![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/Animation/MAAT_ggmap.gif)
+![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/MAAT_ggmap.gif)
 
 License
 ----
