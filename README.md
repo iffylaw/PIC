@@ -1,5 +1,7 @@
 # PIC (Permafrost Indices Computing)
 
+![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/PIC_Stations.png)
+
 At present, there are dozens of different indices are used to evaluate the characteristics and dynamics of permafrost presence or absence, including:
 
   - thawing/freezing degree-days of air and ground surface (DDTa/DDTs/DDFa/DDFs)
@@ -280,6 +282,13 @@ Map_Pic(VarName="FD")
 Spatial_Pic(NetCDFName="PIC_indices.nc", StartYear=1980, EndYear=2010)
 
 # spatial visualization
+Netcdf_Multiplot(NetCDFName = "PIC_indices.nc", VarName = "MAAT")
+Netcdf_Multiplot(NetCDFName = "PIC_indices.nc", VarName = "DDTa")
+Netcdf_Multiplot(NetCDFName = "PIC_indices.nc", VarName = "DDFa")
+Netcdf_Multiplot(NetCDFName = "PIC_indices.nc", VarName = "ALT")
+Netcdf_Multiplot(NetCDFName = "PIC_indices.nc", VarName = "FD")
+
+# spatial animation
 Netcdf_Animation(NetCDFName = "PIC_indices.nc", VarName = "MAAT")
 Netcdf_Animation(NetCDFName = "PIC_indices.nc", VarName = "DDTa")
 Netcdf_Animation(NetCDFName = "PIC_indices.nc", VarName = "DDFa")
@@ -294,3 +303,4 @@ Spatial_Stat("PIC_indices.nc","ALT")
 Spatial_Stat("PIC_indices.nc","FD")
 ```
 
+![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/Animation/ALT_Animation.gif)
