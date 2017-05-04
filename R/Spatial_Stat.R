@@ -23,7 +23,7 @@ Spatial_Stat <- function(NetCDFName, VarName){
                     Lat = rep(rep(as.vector(nc_data[[lat]]),each=lon_length),time_length), 
                     Variable = as.vector(nc_data[[VarName]]))
   
-  sa <- (time_length*tapply(dfr$Variable,list(dfr$Lon,dfr$Lat),sum))
+  sa <- (time_length*tapply(i*dfr$Variable,list(dfr$Lon,dfr$Lat),sum))
         -(sum(i)*tapply(dfr$Variable,list(dfr$Lon,dfr$Lat),sum))
   
   sb <- time_length*sum(i^2)-(sum(i))^2
