@@ -107,5 +107,5 @@ Stat <- function(method, d1, d2){
     r_value <- NA 
   }
   
-  return(sprintf("%.2f", r_value))
+  return(sprintf("%.4f", r_value))
 }

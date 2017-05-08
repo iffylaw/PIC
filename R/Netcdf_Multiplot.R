@@ -7,7 +7,7 @@ require(ggplot2)
 
 Netcdf_Multiplot <- function(NetCDFName, VarName){
   # set current directory to output the gif animation
-  ani.options(outdir = getwd())
+  #ani.options(outdir = getwd())
   
   nc <- open.nc(NetCDFName)
   nc_data <- read.nc(nc)
@@ -45,22 +45,26 @@ Netcdf_Multiplot <- function(NetCDFName, VarName){
   Variable_long_name <- att.get.nc(nc, VarName, "long_name")
   
   # Draw function, i is the time series
-  tiff(paste(VarName,"_allyears.tif", sep=""), width=3000, height=2000, res=300)
+  tiff(paste(VarName,"_allyears.tif", sep=""), width=2800, height=2000, res=300)
   dfr <- data.frame(Lon = rep(as.vector(nc_data[[lon]]),lat_length), Lat = rep(as.vector(nc_data[[lat]]),each=lon_length), 
-                    Variable = as.vector(nc_data[[VarName]][,,1]), Year=Years[1])
+                    Legend=as.vector(nc_data[[VarName]][,,1]), Year=Years[1])
+  
   for (i in 2:time_length){ 
     
     dfr <- rbind(dfr, data.frame(Lon = rep(as.vector(nc_data[[lon]]),lat_length), Lat = rep(as.vector(nc_data[[lat]]),each=lon_length), 
-                      Variable = as.vector(nc_data[[VarName]][,,i]), Year=Years[i]))
+                                 Legend=as.vector(nc_data[[VarName]][,,i]), Year=Years[i]))
   }
-  p <- ggplot(aes(x = Lon, y = Lat, fill=Variable), data=dfr) +
+  
+  p <- ggplot(aes(x = Lon, y = Lat, fill=Legend), data=dfr) +
       geom_raster(interpolate = T, na.rm = T) +
       coord_fixed() +
       facet_wrap( ~ Year, ncol=8) +
       scale_fill_gradientn(limits = c(min_value, max_value),
                            colours=c("blue","green","yellow","red"),
                            #colours = c("#0000FF","#000FF0","#00FF00","#0FF000","#FF0000"),
-                          na.value = "transparent")
+                           na.value = "transparent") +
+      ggtitle(paste(Variable_long_name, " (", Variable_unit, ")", sep="")) +
+      theme(plot.title = element_text(hjust = 0.5))
   
   print(p)
   dev.off()
