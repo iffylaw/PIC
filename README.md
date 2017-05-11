@@ -16,7 +16,7 @@
   ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/PIC.png)
   **The Structure Diagram**
 
-### Statistics
+### 1. Statistics
 ----
 
 **Table 1.** ALT Statistic values
@@ -39,7 +39,7 @@
 | rsr       | 0.95     | 0.94     | 0.96     | 0.83   | 0.93     | 0.71    | 0.93    | 0.73     | 0.94     | 0.92    | 0.94    | 0.96      | 0.91     | 0.94     | 0.72    | 0.94    | 0.95      | 0.95    | 0.94     | 0.93     | 0.72       | 0.93    | 0.98      | 0.94    | 0.70   | 0.92   | 0.90    | 0.74    | 1.00      | 0.93    | 0.95    | 0.97     | 0.94    | 0.93    | 0.95    | 0.91    | 0.71    | 0.70   | 0.93    | 0.68   | 0.68       | 0.78   | 0.92     | 0.86    | 0.81    | 0.75   | 0.93     | 0.80     | 0.75    | 0.95    | 0.71     | 0.93    |
 | d         | 0.03     | 0.04     | 0.03     | 0.14   | 0.03     | 0.04    | 0.11    | 0.13     | 0.04     | 0.07    | 0.04    | 0.04      | 0.08     | 0.05     | 0.12    | 0.10    | 0.05      | 0.05    | 0.07     | 0.03     | 0.21       | 0.07    | 0.10      | 0.08    | 0.11   | 0.15   | 0.05    | 0.10    | 0.07      | 0.05    | 0.04    | 0.03     | 0.05    | 0.05    | 0.08    | 0.04    | 0.08    | 0.10   | 0.07    | 0.16   | 0.20       | 0.15   | 0.04     | 0.04    | 0.05    | 0.12   | 0.04     | 0.03     | 0.04    | 0.05    | 0.04     | 0.08    |
 
-### Visualization
+### 2. Visualization
 ----
 
 ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/Animation/ALT_Animation.gif)
@@ -54,7 +54,7 @@
 ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/ALT_allyears.png)
 **Figure 4.** Region visualization of ALT.
 
-### Examples
+### 3. Examples
 ----
 
 ```sh
