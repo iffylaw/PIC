@@ -2,16 +2,16 @@
 
 ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/PIC_Stations.png)
 
-At present, there are dozens of different indices are used to evaluate the characteristics and dynamics of permafrost presence or absence, including:
+> **At present, there are dozens of different indices are used to evaluate the characteristics and dynamics of permafrost presence or absence, including:**
 
-  - thawing/freezing degree-days of air and ground surface (DDTa/DDTs/DDFa/DDFs)
-  - seasonal thawing/freezing n factor (nt/nf)
-  - MAAT (mean annual air temperature)
-  - MAGT (mean annual ground temperature)
-  - MAGST (mean annual ground surface temperature)
-  - TTOP (the temperature at the top of permafrost)
-  - ALT (active layer thickness)
-  - maximum freeze depth (FD)
+  >- thawing/freezing degree-days of air and ground surface (DDTa/DDTs/DDFa/DDFs)
+  >- seasonal thawing/freezing n factor (nt/nf)
+  >- MAAT (mean annual air temperature)
+  >- MAGT (mean annual ground temperature)
+  >- MAGST (mean annual ground surface temperature)
+  >- TTOP (the temperature at the top of permafrost)
+  >- ALT (active layer thickness)
+  >- maximum freeze depth (FD)
   
   ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/PIC.png)
   **The Structure Diagram**
