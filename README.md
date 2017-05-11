@@ -13,7 +13,7 @@ At present, there are dozens of different indices are used to evaluate the chara
   - ALT (active layer thickness)
   - maximum freeze depth (FD)
   
-  ![Alt text](https://github.com/iffylaw/PIC/blob/master/PIC.png)
+  ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/PIC.png)
   **The Structure Diagram**
 
 ### Statistics
