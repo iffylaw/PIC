@@ -12,9 +12,13 @@ At present, there are dozens of different indices are used to evaluate the chara
   - TTOP (the temperature at the top of permafrost)
   - ALT (active layer thickness)
   - maximum freeze depth (FD)
+  
+  ![Alt text](https://github.com/iffylaw/PIC/blob/master/PIC.png)
+  **The Structure Diagram**
 
 ### Statistics
 **Table 1.** ALT Statistic values
+
 |           | Pishan   | Hetian   | Minfeng  | Mangya | Yutian   | Lenghu  | Tuole   | Yeniugou | Zhangye  | Qilian  | Shandan | Yongchang | Dacaidan | Delingha | Gangcha | Menyuan | Nuomuhong | Dulan   | Qiabuqia | Xining   | Wudaoliang | Xinghai | Shiquanhe | Gaize   | Bange  | Anduo  | Pulan   | Shenzha | Dangxiong | Lazi    | Rikeze  | Nimu     | Lasa    | Jiangzi | Cuona   | Longzi  | Pali    | Zaduo  | Yushu   | Maduo  | Qingshuihe | Shiqu  | Changdou | Dege    | Ganzi   | Seda   | Daofou   | Maerkang | Xinlong | Zuogong | Kangding | Deqin   |
 |-----------|----------|----------|----------|--------|----------|---------|---------|----------|----------|---------|---------|-----------|----------|----------|---------|---------|-----------|---------|----------|----------|------------|---------|-----------|---------|--------|--------|---------|---------|-----------|---------|---------|----------|---------|---------|---------|---------|---------|--------|---------|--------|------------|--------|----------|---------|---------|--------|----------|----------|---------|---------|----------|---------|
 | intercept | 1.84     | 1.63     | 1.73     | 4.99   | 1.30     | 2.21    | -0.55   | -1.43    | 1.96     | 3.40    | 4.85    | 2.57      | -0.33    | 2.84     | -1.41   | 0.21    | 1.72      | 2.67    | 3.48     | 1.98     | -0.10      | 1.72    | 5.77      | 3.49    | 0.03   | -0.82  | 2.75    | -0.87   | 3.70      | 2.94    | 2.19    | 1.34     | 0.57    | 2.15    | 4.02    | 2.72    | -0.99   | 0.11   | 2.68    | 0.15   | 0.40       | 0.42   | 0.68     | 4.16    | 1.52    | 1.04   | 1.84     | 0.40     | 1.68    | 3.64    | 1.75     | 2.36    |
