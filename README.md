@@ -46,9 +46,11 @@
 **Figure 1.** TTOP visualization
 
 ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/MAAT_ggmap.gif)
+
 **Figure 2.** MAAT animation
 
 ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/Animation/ALT_Animation.gif)
+
 **Figure 3.** ALT animation
 
 ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/4inds_Slope.png)
