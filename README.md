@@ -42,17 +42,20 @@
 ### 2. Visualization
 ----
 
-![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/Animation/ALT_Animation.gif)
-**Figure 1.** ALT animation
+![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/ttop_permafrost_ggplot2.png)
+**Figure 1.** TTOP visualization
 
 ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/MAAT_ggmap.gif)
 **Figure 2.** MAAT animation
 
+![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/Animation/ALT_Animation.gif)
+**Figure 3.** ALT animation
+
 ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/4inds_Slope.png)
-**Figure 3.** Spatial trend of MAAT, DDTa, DDFa and ALT.
+**Figure 4.** Spatial trend of MAAT, DDTa, DDFa and ALT.
 
 ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/ALT_allyears.png)
-**Figure 4.** Region visualization of ALT.
+**Figure 5.** Region visualization of ALT.
 
 ### 3. Examples
 ----
