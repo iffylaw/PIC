@@ -14,6 +14,7 @@ At present, there are dozens of different indices are used to evaluate the chara
   - maximum freeze depth (FD)
 
 ### Statistics
+**Table 1.** ALT Statistic values
 |           | Pishan   | Hetian   | Minfeng  | Mangya | Yutian   | Lenghu  | Tuole   | Yeniugou | Zhangye  | Qilian  | Shandan | Yongchang | Dacaidan | Delingha | Gangcha | Menyuan | Nuomuhong | Dulan   | Qiabuqia | Xining   | Wudaoliang | Xinghai | Shiquanhe | Gaize   | Bange  | Anduo  | Pulan   | Shenzha | Dangxiong | Lazi    | Rikeze  | Nimu     | Lasa    | Jiangzi | Cuona   | Longzi  | Pali    | Zaduo  | Yushu   | Maduo  | Qingshuihe | Shiqu  | Changdou | Dege    | Ganzi   | Seda   | Daofou   | Maerkang | Xinlong | Zuogong | Kangding | Deqin   |
 |-----------|----------|----------|----------|--------|----------|---------|---------|----------|----------|---------|---------|-----------|----------|----------|---------|---------|-----------|---------|----------|----------|------------|---------|-----------|---------|--------|--------|---------|---------|-----------|---------|---------|----------|---------|---------|---------|---------|---------|--------|---------|--------|------------|--------|----------|---------|---------|--------|----------|----------|---------|---------|----------|---------|
 | intercept | 1.84     | 1.63     | 1.73     | 4.99   | 1.30     | 2.21    | -0.55   | -1.43    | 1.96     | 3.40    | 4.85    | 2.57      | -0.33    | 2.84     | -1.41   | 0.21    | 1.72      | 2.67    | 3.48     | 1.98     | -0.10      | 1.72    | 5.77      | 3.49    | 0.03   | -0.82  | 2.75    | -0.87   | 3.70      | 2.94    | 2.19    | 1.34     | 0.57    | 2.15    | 4.02    | 2.72    | -0.99   | 0.11   | 2.68    | 0.15   | 0.40       | 0.42   | 0.68     | 4.16    | 1.52    | 1.04   | 1.84     | 0.40     | 1.68    | 3.64    | 1.75     | 2.36    |
@@ -33,14 +34,18 @@ At present, there are dozens of different indices are used to evaluate the chara
 | d         | 0.03     | 0.04     | 0.03     | 0.14   | 0.03     | 0.04    | 0.11    | 0.13     | 0.04     | 0.07    | 0.04    | 0.04      | 0.08     | 0.05     | 0.12    | 0.10    | 0.05      | 0.05    | 0.07     | 0.03     | 0.21       | 0.07    | 0.10      | 0.08    | 0.11   | 0.15   | 0.05    | 0.10    | 0.07      | 0.05    | 0.04    | 0.03     | 0.05    | 0.05    | 0.08    | 0.04    | 0.08    | 0.10   | 0.07    | 0.16   | 0.20       | 0.15   | 0.04     | 0.04    | 0.05    | 0.12   | 0.04     | 0.03     | 0.04    | 0.05    | 0.04     | 0.08    |
 
 ### Visualization
-- ALT animation
+
 ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/Animation/ALT_Animation.gif)
-- MAAT animation
+**Figure 1.** ALT animation
+
 ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/MAAT_ggmap.gif)
--Spatial trend of MAAT, DDTa, DDFa and ALT.
+**Figure 2.** MAAT animation
+
 ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/4inds_Slope.png)
-- Region visualization of ALT.
+**Figure 3.** Spatial trend of MAAT, DDTa, DDFa and ALT.
+
 ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/ALT_allyears.png)
+**Figure 4.** Region visualization of ALT.
 
 ### Examples
 
