@@ -17,6 +17,8 @@ At present, there are dozens of different indices are used to evaluate the chara
   **The Structure Diagram**
 
 ### Statistics
+----
+
 **Table 1.** ALT Statistic values
 
 |           | Pishan   | Hetian   | Minfeng  | Mangya | Yutian   | Lenghu  | Tuole   | Yeniugou | Zhangye  | Qilian  | Shandan | Yongchang | Dacaidan | Delingha | Gangcha | Menyuan | Nuomuhong | Dulan   | Qiabuqia | Xining   | Wudaoliang | Xinghai | Shiquanhe | Gaize   | Bange  | Anduo  | Pulan   | Shenzha | Dangxiong | Lazi    | Rikeze  | Nimu     | Lasa    | Jiangzi | Cuona   | Longzi  | Pali    | Zaduo  | Yushu   | Maduo  | Qingshuihe | Shiqu  | Changdou | Dege    | Ganzi   | Seda   | Daofou   | Maerkang | Xinlong | Zuogong | Kangding | Deqin   |
@@ -38,6 +40,7 @@ At present, there are dozens of different indices are used to evaluate the chara
 | d         | 0.03     | 0.04     | 0.03     | 0.14   | 0.03     | 0.04    | 0.11    | 0.13     | 0.04     | 0.07    | 0.04    | 0.04      | 0.08     | 0.05     | 0.12    | 0.10    | 0.05      | 0.05    | 0.07     | 0.03     | 0.21       | 0.07    | 0.10      | 0.08    | 0.11   | 0.15   | 0.05    | 0.10    | 0.07      | 0.05    | 0.04    | 0.03     | 0.05    | 0.05    | 0.08    | 0.04    | 0.08    | 0.10   | 0.07    | 0.16   | 0.20       | 0.15   | 0.04     | 0.04    | 0.05    | 0.12   | 0.04     | 0.03     | 0.04    | 0.05    | 0.04     | 0.08    |
 
 ### Visualization
+----
 
 ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/Animation/ALT_Animation.gif)
 **Figure 1.** ALT animation
@@ -52,6 +55,7 @@ At present, there are dozens of different indices are used to evaluate the chara
 **Figure 4.** Region visualization of ALT.
 
 ### Examples
+----
 
 ```sh
 #
