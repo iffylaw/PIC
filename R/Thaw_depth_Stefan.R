@@ -1,4 +1,4 @@
-# Stefan fucntion: compute freezing and thawing depth using
+# Stefan function: compute freezing and thawing depth using
 # accumulated ground surface degree-day total I (either the freezing 
 # index DDF or thawing index DDT);                                   
 # is widely used for spatial active-layer characterisation by        
