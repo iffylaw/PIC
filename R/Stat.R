@@ -1,5 +1,6 @@
 # statistics
 library(hydroGOF)
+library(pheno)
 
 Stat <- function(method, d1, d2){
   
@@ -99,6 +100,12 @@ Stat <- function(method, d1, d2){
     
     # Index of Agreement 
     if (method=="d") r_value <- tryCatch({d(d2, d1, na.rm=TRUE) }, 
+                                         error = function ( e ) {temp_amp <- NA}
+                                         , warning = function ( e ) {temp_amp <- NA}
+    )
+    
+    # sequential Mann-Kendall (MK) trend test
+    if (method=="mk") r_value <- tryCatch({seqMK(d1) }, 
                                          error = function ( e ) {temp_amp <- NA}
                                          , warning = function ( e ) {temp_amp <- NA}
     )
