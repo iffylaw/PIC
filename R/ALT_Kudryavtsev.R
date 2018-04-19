@@ -5,8 +5,8 @@
 # cot: coefficient of thermal conductivity during thawing
 # cof: coefficient of thermal conductivity during freezing
 # psn: period of the temperature wave, adjusted for snow melt
-# vhct: volumetric heat capacity during thawing, Jm3
-# vlh: volumetric latent heat of fusion, Jm$3
+# vhct: volumetric heat capacity during thawing, J/m3
+# vlh: volumetric latent heat of fusion, J/m3
 
 ALT_Kudryavtsev <- function(Year, AirTempName, GroundTempName, MinGTName, 
                             MaxGTName, data=QTP_ATM, SID){
