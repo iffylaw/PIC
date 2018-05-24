@@ -11,14 +11,14 @@ TTOP_Smith <- function(Year, AirTempName, GroundTempName, data=QTP_ATM, SID, ...
   
   ttop_a <- sapply(Year, function(Year) tryCatch({
     (cot*NT(Year=Year, AirTempName=AirTempName, GroundTempName=GroundTempName, data, SID=SID)*
-              Thawing_index(Year=Year, TempName=AirTempName, Data=Data, SID=SID)) 
+              Thawing_index(Year=Year, TempName=AirTempName, data=data, SID=SID)) 
   }, error = function ( e ) {ttop_a <- NA}
   , warning = function ( e ) {ttop_a <- NA}
   ), simplify=T)
 
   ttop_b <- sapply(Year, function(Year) tryCatch({
     (cof*NF(Year=Year, AirTempName=AirTempName, GroundTempName=GroundTempName, data, SID=SID)*
-       Freezing_index(Year=Year, TempName=AirTempName, Data=Data, SID=SID))
+       Freezing_index(Year=Year, TempName=AirTempName, data=data, SID=SID))
   }, error = function ( e ) {ttop_b <- NA}
     , warning = function ( e ) {ttop_b <- NA}
   ), simplify=T)
