@@ -5,7 +5,7 @@
 
 ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/PIC_Stations.png)
 
-**Figure 1. **Map of the data location over QTP.** 
+**Figure 1. ** Map of the data location over QTP.
 
 > **At present, there are dozens of different indices are used to evaluate the characteristics and dynamics of permafrost presence or absence, including:**
 
@@ -20,9 +20,9 @@
   
   ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/PIC.png)
   
- **Figure 2. **The Structure Diagram of PIC**
+ **Figure 2.** The Structure Diagram of PIC
 
-**Table 1.** Most important user functions in the R package PIC.** 
+**Table 1.** Most important user functions in the R package PIC. 
 
 | R function                  | Description and reference                                                                                                                                                            | Unit | Equation   |
 |-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|------------|
