@@ -117,7 +117,7 @@
 ### 3. Examples
 ----
 
-```sh
+```{r}
 #
 # The example of Permafrost Indices Computing (PIC) 
 # Author: Lihui Luo (E-mail: luolh@lzb.ac.cn)
