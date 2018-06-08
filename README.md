@@ -70,6 +70,8 @@
 ### 1. Statistics
 ----
 
+> **The stat function contains all statistical methods for station calculation. A spatial trend can also be computed using the Spatial_Stat function after the regional calculation.**
+
 **Table 2.** ALT Statistic values
 
 |           | Pishan   | Hetian   | Minfeng  | Mangya | Yutian   | Lenghu  | Tuole   | Yeniugou | Zhangye  | Qilian  | Shandan | Yongchang | Dacaidan | Delingha | Gangcha | Menyuan | Nuomuhong | Dulan   | Qiabuqia | Xining   | Wudaoliang | Xinghai | Shiquanhe | Gaize   | Bange  | Anduo  | Pulan   | Shenzha | Dangxiong | Lazi    | Rikeze  | Nimu     | Lasa    | Jiangzi | Cuona   | Longzi  | Pali    | Zaduo  | Yushu   | Maduo  | Qingshuihe | Shiqu  | Changdou | Dege    | Ganzi   | Seda   | Daofou   | Maerkang | Xinlong | Zuogong | Kangding | Deqin   |
@@ -95,6 +97,8 @@
 ### 2. Visualization
 ----
 
+> **Station visualization can be produced by Plot_TTOP_ALT and Plot_3M. The Plot_TTOP_ALT function plots two TTOP or two ALT indices in a figure for all stations or stations with permafrost. VarName has the “TTOP” and “ALT” options, whereas SID has the “permafrost” and “all” options. The Plot_3M function draws the MAAT, MAGST, and MAGT indices. The two functions only plot these stations where permafrost exists when SID = “permafrost.”**
+
 ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/ttop_permafrost_ggplot2.png)
 **Figure 3.** TTOP visualization
 
@@ -117,12 +121,15 @@
 ### 3. Examples
 ----
 
+> **Several examples of the PIC use and application were presented here.** 
+
 ```r
 #
-# The example of Permafrost Indices Computing (PIC) 
+# The example is designed to help users better use the PIC package  
 # Author: Lihui Luo (E-mail: luolh@lzb.ac.cn)
 # Cold and Arid Regions Environmental and Engineering Research Institute, 
 # Chinese Academy of Sciences
+# updated: 06/08/2018
 #
 ##########################################################################################
 # Compute temperature/depth-related indices using daily weather observations
