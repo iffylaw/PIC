@@ -5,7 +5,7 @@
 
 ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/PIC_Stations.png)
 
-**Figure 1.** Map of the data location over QTP. 
+**Figure 1. **Map of the data location over QTP.** 
 
 > **At present, there are dozens of different indices are used to evaluate the characteristics and dynamics of permafrost presence or absence, including:**
 
@@ -22,11 +22,11 @@
   
  **Figure 2. **The Structure Diagram of PIC**
 
-**Table 1.** Most important user functions in the R package PIC. 
+**Table 1.** Most important user functions in the R package PIC.** 
 
 | R function                  | Description and reference                                                                                                                                                            | Unit | Equation   |
 |-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|------------|
-| Temperature-related indices |                                                                                                                                                                                      |      |            |
+| **Temperature-related indices** |                                                                                                                                                                                      |      |            |
 | Freezing_index              | Freezing degree-days for air and ground                                                                                                                                              | ℃    | (4,6)      |
 | Thawing_index               | Thawing degree-days for air and ground                                                                                                                                               | ℃    | (3,5)      |
 | MAAT                        | Mean annual air temperature                                                                                                                                                          | ℃    | (7)        |
@@ -40,23 +40,23 @@
 | Nival_Offset                | The first term (Surface_Offset) on the right-hand-side is positive, and represents the elevation of MAGST over MAAT due to the insulating effect of winter snow cover (nival offset) | ℃    |            |
 | TTOP_Smith                  | The temperature at the top of the permafrost using Smith & Riseborough function                                                                                                      | ℃    | (13)       |
 | TTOP_Kudryavtsev            | The temperature at the top of the permafrost using Kudryavtsev function                                                                                                              | ℃    | (14)       |
-| Depth-related indices       |                                                                                                                                                                                      |      |            |
+| **Depth-related indices**       |                                                                                                                                                                                      |      |            |
 | Freeze_depth_Stefan         | Maximum freezing depth using Stefan function                                                                                                                                         | m    | (20)       |
 | Thaw_depth_Stefan           | Active layer thickness using Stefan function                                                                                                                                         | m    | (16)       |
 | ALT_Kudryavtsev             | Active layer thickness (ALT) or maximum thawing depth using Kudryavtsev function                                                                                                     | m    | (19)       |
-| Region                      |                                                                                                                                                                                      |      |            |
+| **Region**                      |                                                                                                                                                                                      |      |            |
 | Spatial_Pic                 | Spatial changes with MAAT, DDTa, DDFa and ALT                                                                                                                                        | m    | (3,4,7,16) |
-| Toolkit                     |                                                                                                                                                                                      |      |            |
+| **Toolkit**                     |                                                                                                                                                                                      |      |            |
 | Com_Indices_QTP             | Computing all indices for all stations of the QTP                                                                                                                                    |      |            |
 | Outlier_Process             | Process the abnormal value                                                                                                                                                           |      |            |
 | VLH                         | Computing volumetric latent heat of fusion                                                                                                                                           | J/m3 | (2)        |
 | Convert_4_ggplot            | Convert the values of TTOP & ALT to one columns                                                                                                                                      |      |            |
 | Exist_Permafrost            | To determine which stations exists permafrost by TTOP values                                                                                                                         |      |            |
-| Statistic                   |                                                                                                                                                                                      |      |            |
+| **Statistic**                   |                                                                                                                                                                                      |      |            |
 | Stat                        | Statistic functions with more 10 methods                                                                                                                                             |      | (21,22,23) |
 | Spatial_Stat                | Spatial statistic method, just for spatial trend                                                                                                                                     |      | (24)       |
 | Com_Stats_QTP               | Computing the statistc values for one or both of these indices                                                                                                                       |      |            |
-| Visualization               |                                                                                                                                                                                      |      |            |
+| **Visualization**               |                                                                                                                                                                                      |      |            |
 | Plot_3M                     | Plot MAAT, MAGST, and MAGT for all stations or a station                                                                                                                             |      |            |
 | Plot_TTOP_ALT               | Plot TTOP and ALT for all stations or a station                                                                                                                                      |      |            |
 | ggplot_Pic                  | Plot multiple indices all stations or a station using ggplot2                                                                                                                        |      |            |
@@ -67,7 +67,7 @@
 ### 1. Statistics
 ----
 
-**Table 2.** ALT Statistic values
+**Table 2.** ALT Statistic values**
 
 |           | Pishan   | Hetian   | Minfeng  | Mangya | Yutian   | Lenghu  | Tuole   | Yeniugou | Zhangye  | Qilian  | Shandan | Yongchang | Dacaidan | Delingha | Gangcha | Menyuan | Nuomuhong | Dulan   | Qiabuqia | Xining   | Wudaoliang | Xinghai | Shiquanhe | Gaize   | Bange  | Anduo  | Pulan   | Shenzha | Dangxiong | Lazi    | Rikeze  | Nimu     | Lasa    | Jiangzi | Cuona   | Longzi  | Pali    | Zaduo  | Yushu   | Maduo  | Qingshuihe | Shiqu  | Changdou | Dege    | Ganzi   | Seda   | Daofou   | Maerkang | Xinlong | Zuogong | Kangding | Deqin   |
 |-----------|----------|----------|----------|--------|----------|---------|---------|----------|----------|---------|---------|-----------|----------|----------|---------|---------|-----------|---------|----------|----------|------------|---------|-----------|---------|--------|--------|---------|---------|-----------|---------|---------|----------|---------|---------|---------|---------|---------|--------|---------|--------|------------|--------|----------|---------|---------|--------|----------|----------|---------|---------|----------|---------|
