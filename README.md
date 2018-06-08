@@ -1,6 +1,11 @@
 # PIC (Permafrost Indices Computing)
 
+### 0. Introduction
+----
+
 ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/PIC_Stations.png)
+
+**Figure 1.** Map of the data location over QTP. 
 
 > **At present, there are dozens of different indices are used to evaluate the characteristics and dynamics of permafrost presence or absence, including:**
 
@@ -14,9 +19,8 @@
   >- maximum freeze depth (FD)
   
   ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/PIC.png)
-  **The Structure Diagram**
-
-
+  
+ **Figure 2. **The Structure Diagram of PIC**
 
 **Table 1.** Most important user functions in the R package PIC. 
 
@@ -87,21 +91,21 @@
 ----
 
 ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/ttop_permafrost_ggplot2.png)
-**Figure 1.** TTOP visualization
+**Figure 3.** TTOP visualization
 
 ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/MAAT_ggmap.gif)
 
-**Figure 2.** MAAT animation
+**Figure 4.** MAAT animation
 
 ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/Animation/ALT_Animation.gif)
 
-**Figure 3.** ALT animation
+**Figure 5.** ALT animation
 
 ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/4inds_Slope.png)
-**Figure 4.** Spatial trend of MAAT, DDTa, DDFa and ALT.
+**Figure 6.** Spatial trend of MAAT, DDTa, DDFa and ALT.
 
 ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/ALT_allyears.png)
-**Figure 5.** Region visualization of ALT.
+**Figure 7.** Region visualization of ALT.
 
 ### 3. Examples
 ----
