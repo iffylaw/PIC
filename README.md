@@ -16,10 +16,54 @@
   ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/PIC.png)
   **The Structure Diagram**
 
+
+
+**Table 1.** Most important user functions in the R package PIC. 
+
+| R function                  | Description and reference                                                                                                                                                            | Unit | Equation   |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|------------|
+| Temperature-related indices |                                                                                                                                                                                      |      |            |
+| Freezing_index              | Freezing degree-days for air and ground                                                                                                                                              | ℃    | (4,6)      |
+| Thawing_index               | Thawing degree-days for air and ground                                                                                                                                               | ℃    | (3,5)      |
+| MAAT                        | Mean annual air temperature                                                                                                                                                          | ℃    | (7)        |
+| MAGST                       | Mean annual ground surface temperature (5 cm)                                                                                                                                        | ℃    | (8)        |
+| MAGT                        | Mean annual ground  temperature (at 15 m)                                                                                                                                            | ℃    | (10)       |
+| NT                          | Thawing n-factor                                                                                                                                                                     |      | (11)       |
+| NF                          | Freezing n-factor                                                                                                                                                                    |      | (12)       |
+| Surface_Offset              | The difference between the MAGST and MAAT                                                                                                                                            | ℃    |            |
+| Thermal_Offset              | The difference between the TTOP and MAGST                                                                                                                                            | ℃    |            |
+| Vegetation_Offset           | The second term (Surface_Offset) is negative, and represents the reduction in MAGST due to vegetation effects in summer (vegetation offset)                                          | ℃    |            |
+| Nival_Offset                | The first term (Surface_Offset) on the right-hand-side is positive, and represents the elevation of MAGST over MAAT due to the insulating effect of winter snow cover (nival offset) | ℃    |            |
+| TTOP_Smith                  | The temperature at the top of the permafrost using Smith & Riseborough function                                                                                                      | ℃    | (13)       |
+| TTOP_Kudryavtsev            | The temperature at the top of the permafrost using Kudryavtsev function                                                                                                              | ℃    | (14)       |
+| Depth-related indices       |                                                                                                                                                                                      |      |            |
+| Freeze_depth_Stefan         | Maximum freezing depth using Stefan function                                                                                                                                         | m    | (20)       |
+| Thaw_depth_Stefan           | Active layer thickness using Stefan function                                                                                                                                         | m    | (16)       |
+| ALT_Kudryavtsev             | Active layer thickness (ALT) or maximum thawing depth using Kudryavtsev function                                                                                                     | m    | (19)       |
+| Region                      |                                                                                                                                                                                      |      |            |
+| Spatial_Pic                 | Spatial changes with MAAT, DDTa, DDFa and ALT                                                                                                                                        | m    | (3,4,7,16) |
+| Toolkit                     |                                                                                                                                                                                      |      |            |
+| Com_Indices_QTP             | Computing all indices for all stations of the QTP                                                                                                                                    |      |            |
+| Outlier_Process             | Process the abnormal value                                                                                                                                                           |      |            |
+| VLH                         | Computing volumetric latent heat of fusion                                                                                                                                           | J/m3 | (2)        |
+| Convert_4_ggplot            | Convert the values of TTOP & ALT to one columns                                                                                                                                      |      |            |
+| Exist_Permafrost            | To determine which stations exists permafrost by TTOP values                                                                                                                         |      |            |
+| Statistic                   |                                                                                                                                                                                      |      |            |
+| Stat                        | Statistic functions with more 10 methods                                                                                                                                             |      | (21,22,23) |
+| Spatial_Stat                | Spatial statistic method, just for spatial trend                                                                                                                                     |      | (24)       |
+| Com_Stats_QTP               | Computing the statistc values for one or both of these indices                                                                                                                       |      |            |
+| Visualization               |                                                                                                                                                                                      |      |            |
+| Plot_3M                     | Plot MAAT, MAGST, and MAGT for all stations or a station                                                                                                                             |      |            |
+| Plot_TTOP_ALT               | Plot TTOP and ALT for all stations or a station                                                                                                                                      |      |            |
+| ggplot_Pic                  | Plot multiple indices all stations or a station using ggplot2                                                                                                                        |      |            |
+| Map_Pic                     | Plot multiple indices all stations or a station using ggmap                                                                                                                          |      |            |
+| Netcdf_Multiplot            | Region visualization of NetCDF with multiple plots                                                                                                                                   |      |            |
+| Netcdf_Animation            | Region animation of NetCDF                                                                                                                                                           |      |            |
+
 ### 1. Statistics
 ----
 
-**Table 1.** ALT Statistic values
+**Table 2.** ALT Statistic values
 
 |           | Pishan   | Hetian   | Minfeng  | Mangya | Yutian   | Lenghu  | Tuole   | Yeniugou | Zhangye  | Qilian  | Shandan | Yongchang | Dacaidan | Delingha | Gangcha | Menyuan | Nuomuhong | Dulan   | Qiabuqia | Xining   | Wudaoliang | Xinghai | Shiquanhe | Gaize   | Bange  | Anduo  | Pulan   | Shenzha | Dangxiong | Lazi    | Rikeze  | Nimu     | Lasa    | Jiangzi | Cuona   | Longzi  | Pali    | Zaduo  | Yushu   | Maduo  | Qingshuihe | Shiqu  | Changdou | Dege    | Ganzi   | Seda   | Daofou   | Maerkang | Xinlong | Zuogong | Kangding | Deqin   |
 |-----------|----------|----------|----------|--------|----------|---------|---------|----------|----------|---------|---------|-----------|----------|----------|---------|---------|-----------|---------|----------|----------|------------|---------|-----------|---------|--------|--------|---------|---------|-----------|---------|---------|----------|---------|---------|---------|---------|---------|--------|---------|--------|------------|--------|----------|---------|---------|--------|----------|----------|---------|---------|----------|---------|
