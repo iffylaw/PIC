@@ -1,5 +1,7 @@
 # PIC (Permafrost Indices Computing)
 
+
+----
 ### 0. Introduction
 ----
 
@@ -64,10 +66,11 @@
 | Netcdf_Multiplot            | Region visualization of NetCDF with multiple plots                                                                                                                                   |      |            |
 | Netcdf_Animation            | Region animation of NetCDF                                                                                                                                                           |      |            |
 
+----
 ### 1. Statistics
 ----
 
-**Table 2.** ALT Statistic values**
+**Table 2.** ALT Statistic values
 
 |           | Pishan   | Hetian   | Minfeng  | Mangya | Yutian   | Lenghu  | Tuole   | Yeniugou | Zhangye  | Qilian  | Shandan | Yongchang | Dacaidan | Delingha | Gangcha | Menyuan | Nuomuhong | Dulan   | Qiabuqia | Xining   | Wudaoliang | Xinghai | Shiquanhe | Gaize   | Bange  | Anduo  | Pulan   | Shenzha | Dangxiong | Lazi    | Rikeze  | Nimu     | Lasa    | Jiangzi | Cuona   | Longzi  | Pali    | Zaduo  | Yushu   | Maduo  | Qingshuihe | Shiqu  | Changdou | Dege    | Ganzi   | Seda   | Daofou   | Maerkang | Xinlong | Zuogong | Kangding | Deqin   |
 |-----------|----------|----------|----------|--------|----------|---------|---------|----------|----------|---------|---------|-----------|----------|----------|---------|---------|-----------|---------|----------|----------|------------|---------|-----------|---------|--------|--------|---------|---------|-----------|---------|---------|----------|---------|---------|---------|---------|---------|--------|---------|--------|------------|--------|----------|---------|---------|--------|----------|----------|---------|---------|----------|---------|
@@ -87,6 +90,8 @@
 | rsr       | 0.95     | 0.94     | 0.96     | 0.83   | 0.93     | 0.71    | 0.93    | 0.73     | 0.94     | 0.92    | 0.94    | 0.96      | 0.91     | 0.94     | 0.72    | 0.94    | 0.95      | 0.95    | 0.94     | 0.93     | 0.72       | 0.93    | 0.98      | 0.94    | 0.70   | 0.92   | 0.90    | 0.74    | 1.00      | 0.93    | 0.95    | 0.97     | 0.94    | 0.93    | 0.95    | 0.91    | 0.71    | 0.70   | 0.93    | 0.68   | 0.68       | 0.78   | 0.92     | 0.86    | 0.81    | 0.75   | 0.93     | 0.80     | 0.75    | 0.95    | 0.71     | 0.93    |
 | d         | 0.03     | 0.04     | 0.03     | 0.14   | 0.03     | 0.04    | 0.11    | 0.13     | 0.04     | 0.07    | 0.04    | 0.04      | 0.08     | 0.05     | 0.12    | 0.10    | 0.05      | 0.05    | 0.07     | 0.03     | 0.21       | 0.07    | 0.10      | 0.08    | 0.11   | 0.15   | 0.05    | 0.10    | 0.07      | 0.05    | 0.04    | 0.03     | 0.05    | 0.05    | 0.08    | 0.04    | 0.08    | 0.10   | 0.07    | 0.16   | 0.20       | 0.15   | 0.04     | 0.04    | 0.05    | 0.12   | 0.04     | 0.03     | 0.04    | 0.05    | 0.04     | 0.08    |
 
+
+----
 ### 2. Visualization
 ----
 
@@ -107,6 +112,8 @@
 ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/ALT_allyears.png)
 **Figure 7.** Region visualization of ALT.
 
+
+----
 ### 3. Examples
 ----
 
@@ -398,6 +405,7 @@ Spatial_Stat("PIC_indices.nc","ALT")
 Spatial_Stat("PIC_indices.nc","FD")
 ```
 
+----
 License
 ----
 
