@@ -20,7 +20,7 @@
   >- ALT (active layer thickness)
   >- maximum freeze depth (FD)
   
-  ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/Figure 2.tif)
+  ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/Figure2.png)
   
  **Figure 2.** The Structure Diagram of PIC
 
@@ -111,7 +111,6 @@
 **Figure 5.** ALT animation
 
 ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/4inds_Slope.png)
-<img src="https://github.com/iffylaw/PIC/blob/master/Figure/4inds_Slope.png" height="80%" />
 **Figure 6.** Spatial trend of MAAT, DDTa, DDFa and ALT.
 
 ![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/ALT_allyears.png)
