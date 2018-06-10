@@ -422,4 +422,6 @@ Cold and Arid Regions Environmental and Engineering Research Institute, Chinese 
 
 Please contact to Lihui Luo (E-mail: luolh@lzb.ac.cn)
 
+![Alt text](https://github.com/iffylaw/PIC/blob/master/Figure/WeChat.jpg)
+
 updated: 06/08/2018
