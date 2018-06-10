@@ -24,7 +24,7 @@
   
  **Figure 2.** The Structure Diagram of PIC
 
-**Table 1.** Most important user functions in the R package PIC. 
+**Table 1.** Most important user functions in the PIC. 
 
 | R function                  | Description and reference                                                                                                                                                            | Unit | Equation   |
 |-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|------------|
@@ -121,7 +121,7 @@
 ### 3. Examples
 ----
 
-> **Several examples of the PIC use and application were presented here.** 
+> **Several examples of the PIC application were presented here.** 
 
 ```r
 #
